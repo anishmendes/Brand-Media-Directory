@@ -19,7 +19,7 @@ type Platform =
 
 type Brand = {
   name: string;
-  category: "EV & Automotive" | "Automotive" | "Insurance" | "Construction";
+  category: "EV & Automotive" | "Automotive" | "Insurance" | "Construction" | "Construction Tech";
   accent: string;
   logo: string;
   links: Partial<Record<Platform, string>>;
@@ -111,6 +111,16 @@ const brands: Brand[] = [
       google: "https://share.google/Eoy8dAhXV9OM2YCA4",
       instagram: "https://www.instagram.com/london_scaffolding_company/",
       facebook: "https://www.facebook.com/profile.php?id=61587396099324",
+    },
+  },
+  {
+    name: "Builders App",
+    category: "Construction Tech",
+    accent: "#14b8a6",
+    logo: "/logos/builders-app-ai.png",
+    links: {
+      website: "https://www.buildersappai.com/",
+      facebook: "https://www.facebook.com/profile.php?id=61590998711292",
     },
   },
 ];
