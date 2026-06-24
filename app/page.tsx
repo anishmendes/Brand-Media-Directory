@@ -121,6 +121,7 @@ const brands: Brand[] = [
     links: {
       website: "https://www.buildersappai.com/",
       facebook: "https://www.facebook.com/profile.php?id=61590998711292",
+      youtube: "https://www.youtube.com/channel/UCJQ1ivmNLEI8quDD8l8cYeA",
     },
   },
 ];
